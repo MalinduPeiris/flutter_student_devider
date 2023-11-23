@@ -147,7 +147,7 @@ class GroupsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Randomly Divide Students'),
+        title: const Text('Divided Students'),
       ),
       body: ListView.builder(
         itemCount: dividedGroups.length,
